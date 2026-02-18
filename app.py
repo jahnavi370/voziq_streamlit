@@ -24,5 +24,7 @@ if(submit):
         ans = div(a,b)
     elif operator == '%':
         ans = mod(a,b)
+    elif operator == '**':
+        ans = pow(a,b)
 
     st.write(f"The answer is : {ans}")
